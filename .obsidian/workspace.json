@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -199,6 +200,10 @@
   },
   "active": "78426d15b3a1d0b6",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
     "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།.md",
     "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
     "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.md",
@@ -226,11 +231,6 @@
     "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ། 3.md",
     "1-SOURCES/Commentaries/ཡིག་ཆ་1-གཙང་མ།.md",
     "1-SOURCES/Commentaries/ཡིག་ཆ་2-གཙང་མ།.md",
-    "1-SOURCES/Commentaries/ཡིག་ཆ་5-གཙང་མ།.md",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Prompts",
