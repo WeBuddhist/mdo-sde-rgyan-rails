@@ -193,8 +193,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "gemini-scribe:Gemini Scribe: Agent Mode": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "78426d15b3a1d0b6",
