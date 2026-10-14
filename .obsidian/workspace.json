@@ -199,12 +199,15 @@
   },
   "active": "78426d15b3a1d0b6",
   "lastOpenFiles": [
+    "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
     "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/ཡིག་ཆ་དང་པོ་མཐུད་ཟིན།.md",
+    "1-SOURCES/Commentaries/md.txt",
     "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།.md",
+    "1-SOURCES/Commentaries/UTMW1PD95844_3266_I1PD95916_bo,sa,zh.txt",
     "1-SOURCES/Commentaries/ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
     "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།.md",
-    "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
-    "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།.md",
     "1-SOURCES/Commentaries/ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་ཞེས་བྱ་བའི་མཆན་འགྲེལ། 1.md",
     "1-SOURCES/Commentaries/ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན། 5.md",
     "1-SOURCES/Commentaries/ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། 2.md",
@@ -228,12 +231,9 @@
     "gemini-scribe/Prompts",
     "gemini-scribe",
     "CLAUDE.md",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/tipitaka_org_atthakatha.py",
     "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
     "4-SYSTEM/Skills/verse-context/SKILL.md",
     "4-SYSTEM/Skills/vault-audit/SKILL.md",
-    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/source-property-extractor/SKILL.md"
+    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md"
   ]
 }
