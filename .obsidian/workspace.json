@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།.md",
+                "file": "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།"
+              "title": "མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།"
             }
           }
         ]
@@ -198,8 +198,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "15014ceefa497d3c",
+  "active": "78426d15b3a1d0b6",
   "lastOpenFiles": [
+    "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།.md",
     "4-SYSTEM/scripts/linter-commentary/output/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.lint.json",
     "4-SYSTEM/scripts/linter-commentary/output/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.lint.json",
     "4-SYSTEM/scripts/linter-commentary/output/མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།.lint.json",
@@ -212,7 +213,6 @@
     "4-SYSTEM/scripts/linter-commentary/lookup.py",
     "4-SYSTEM/scripts/linter-commentary/lint_text_input.py",
     "4-SYSTEM/scripts/linter-commentary/languages.py",
-    "4-SYSTEM/scripts/linter-commentary/durchen.py",
     "4-SYSTEM/Skills/commentary-resegment/SKILL.md",
     "4-SYSTEM/scripts/parser-root-text/README.md",
     "4-SYSTEM/scripts/parser-root-text/UPSTREAM.md",
