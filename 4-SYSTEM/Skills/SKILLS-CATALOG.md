@@ -106,6 +106,8 @@ Builds one commentary's routing index from its own outline nodes onto the canoni
 
 **Block IDs are citations.** Once anything cites a file, re-segmenting it breaks those citations silently. If you must, re-run every downstream rail.
 
+**Segmentation** of root texts and commentaries: the §4a workflows (`root-text-pipeline`, `commentary-pipeline`).
+
 ### `segment-commentary`
 Breaks a commentary into short, individually referenceable blocks — prose paragraphs, verse stanzas, quotations — so that every claim can later cite one.
 → [`segment-commentary/SKILL.md`](segment-commentary/SKILL.md)
@@ -117,6 +119,80 @@ Adds block IDs so every verse, prose block and heading can be cited and transclu
 ### `transclusion`
 Inserts root-verse transclusion links into a commentary or a second version of the root text, placing each one where the verse becomes relevant.
 → [`transclusion/SKILL.md`](transclusion/SKILL.md)
+
+---
+
+## 4a. Segmentation and TOC workflows — root texts and commentaries
+
+One skill per step, separate for root texts and commentaries, and one pipeline skill each that runs the whole workflow. Shared scripts and TOC prompts: `4-SYSTEM/Skills/seg-toc-lib/`.
+
+*Ported from Nalanda-texts-rails at commit `fd801eb3` (2026-10-15). The optional benchmark harness those skills mention (`4-SYSTEM/scripts/seg-toc-benchmark/`) was not ported.*
+
+#### Root texts
+
+### `root-text-pipeline` **[exists]**
+**Runs the whole root-text workflow** on one root text (treatise, praise, ritual, sādhana, prayer, letter — not a commentary): classify → segment → TOC extract (if the text announces parts) → TOC ingest → group → block IDs, with the checks between steps. Verse as one pāda per line and one stanza per block; prose as paragraphs with its verse passages as stanzas; frame headings for front matter and colophons; the text's own top-level parts as headings; block IDs. The printed edition's paragraph breaks are kept.
+→ [`root-text-pipeline/SKILL.md`](root-text-pipeline/SKILL.md)
+
+### `root-text-classify` **[exists]**
+Step 1 — verse / prose / mixed, or a commentary (stop). Content first, title second. Deterministic.
+→ [`root-text-classify/SKILL.md`](root-text-classify/SKILL.md)
+
+### `root-text-segment` **[exists]**
+Step 2 — units (pādas, or sentences with verse lines), raw paragraph breaks kept (mid-sentence ones flagged), front matter `ཀླད་ཀྱི་དོན།` and colophons `མཇུག་བྱང།` by pattern; writes the grouping input. Deterministic.
+→ [`root-text-segment/SKILL.md`](root-text-segment/SKILL.md)
+
+### `root-text-toc-extract` **[exists]**
+Step 3 — heading tree of the text's announced parts in isolated passes (candidates with Type D, enumerations, tree, QC, anchors, QC against the text); no frame nodes; no tree when nothing is announced. Claude subagents.
+→ [`root-text-toc-extract/SKILL.md`](root-text-toc-extract/SKILL.md)
+
+### `root-text-toc-ingest` **[exists]**
+Step 4 — the tree's top-level parts as `##` headings, the author's opening verses kept with part 1; rewrites the grouping input. Deterministic.
+→ [`root-text-toc-ingest/SKILL.md`](root-text-toc-ingest/SKILL.md)
+
+### `root-text-group` **[exists]**
+Step 5 — stanzas (verse, by sense, no fixed length) / paragraphs and stanzas (prose), never across a heading or a printed paragraph break; long texts split into parallel parts. Claude subagents (`prompts/stanza-grouping.md`, `prompts/prose-grouping.md`).
+→ [`root-text-group/SKILL.md`](root-text-group/SKILL.md)
+
+### `root-text-block-ids` **[exists]**
+Step 6 — build the final file, refuse a bad grouping, stamp IDs, verify the text. Deterministic.
+→ [`root-text-block-ids/SKILL.md`](root-text-block-ids/SKILL.md)
+
+#### Commentaries
+
+### `commentary-pipeline` **[exists]**
+**Runs the whole commentary workflow** on one commentary: pre-clean → segment into functional units → TOC tree (mode `sabcad` / `verses` / `top` / `labels`) → TOC ingest → meaning-based re-segmentation + QC → body block IDs, with the checks between steps.
+→ [`commentary-pipeline/SKILL.md`](commentary-pipeline/SKILL.md)
+
+### `commentary-preclean` **[exists]**
+Step 1 (optional) — strip earlier scaffolding (index numbers, IDs, heading markers, per-line breaks) back to continuous prose; footnotes kept. Deterministic.
+→ [`commentary-preclean/SKILL.md`](commentary-preclean/SKILL.md)
+
+### `commentary-segment` **[exists]**
+Step 2 — deterministic segmentation; `--units --root <root text>` gives the vault's human layout (opener / quoted root verse / whole explanation / frame); `--max-syllables 40` citation-granular. Source spacing preserved; no-loss assertion. Flags `--enum-chain broad`, `--quotes`, `--colophon-guard`, `--stanza-breaks`.
+→ [`commentary-segment/SKILL.md`](commentary-segment/SKILL.md)
+
+### `commentary-toc-extract` **[exists]**
+Step 3 — full nested decimal sa bcad tree in isolated passes (candidates → verbatim enumerations → tree → QC repair → anchors with frame nodes → QC against the text), then published to `2-RAILS/Sections/Raw/toc-tree/<registered-id>.md` for `section-summary`, `commentary-claims` and `spine-map`; modes `sabcad` / `verses` / `top` / `labels`. Gemini pipeline in `4-SYSTEM/Skills/seg-toc-lib/toc_tree_extractor/` by default, Claude subagents on request.
+→ [`commentary-toc-extract/SKILL.md`](commentary-toc-extract/SKILL.md)
+
+### `commentary-toc-ingest` **[exists]**
+Step 4 — anchored tree into the segmented commentary as headings with block IDs, the way the human-edited files carry them (stacked parent/first-child headings, frame headings, siblings in text order); text verified unchanged. Deterministic.
+→ [`commentary-toc-ingest/SKILL.md`](commentary-toc-ingest/SKILL.md)
+
+### `commentary-resegment` **[exists]**
+Step 5 — meaning-based merge/split of blocks after the headings are in (mostly merging an explanation cut at a sentence end): the model flags operations per window, a script applies them, protects verse blocks, verifies integrity; QC pass. Gemini 3.8 Flash (high) by default, Claude on request.
+→ [`commentary-resegment/SKILL.md`](commentary-resegment/SKILL.md)
+
+### `commentary-block-ids` **[exists]**
+Step 6 — derived body block IDs (`^N-n` by top-level section, frame from its own label), after the `##` labels are confirmed. Deterministic.
+→ [`commentary-block-ids/SKILL.md`](commentary-block-ids/SKILL.md)
+
+#### Shared
+
+### `seg-toc-lib` **[exists]**
+Support library, not run on its own: the scripts and TOC prompts both workflows share — root-text build library, tree ingest, chunking, the two tree checkers, the Gemini TOC pipeline, the strict text gate `verify_text.py`. Its `SKILL.md` holds the model rule (Gemini API by default, agents only when asked) and each step's text check.
+→ [`seg-toc-lib/SKILL.md`](seg-toc-lib/SKILL.md)
 
 ---
 
