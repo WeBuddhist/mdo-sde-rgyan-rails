@@ -1,0 +1,98 @@
+{
+ "ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།": {
+  "date": "2026-10-15",
+  "edition_id": "sPydZ538ke03k39TAFSAp",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T09:26:59"
+   },
+   {
+    "chars": 608491,
+    "segments": 1572,
+    "step": "edition",
+    "ts": "2026-10-15T09:27:03"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T09:27:03"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "dyVrL4uQ2ij91KqT37Z40",
+  "toc_id": "3UL3rg208N486FBWgKFrH",
+  "updated": "2026-10-15T09:27:03"
+ },
+ "མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།": {
+  "date": "2026-10-15",
+  "edition_id": "8pahV0FydpLBrvQ8jVZYV",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T09:27:04"
+   },
+   {
+    "chars": 261685,
+    "segments": 414,
+    "step": "edition",
+    "ts": "2026-10-15T09:27:06"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T09:27:06"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "hp3bbJnzzFTDWjU9sShVz",
+  "toc_id": "pRyarkWlAdNlorbMyAcJQ",
+  "updated": "2026-10-15T09:27:06"
+ },
+ "མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།": {
+  "date": "2026-10-15",
+  "edition_id": "BhVEfFi5yiCXvXiDqcsPi",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T09:27:07"
+   },
+   {
+    "chars": 829839,
+    "segments": 1432,
+    "step": "edition",
+    "ts": "2026-10-15T09:27:12"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T09:27:12"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "DO8FpmYxtxZ9ycv3qXIec",
+  "toc_id": "IzwOMx8TsXvJZJSQafcdm",
+  "updated": "2026-10-15T09:27:12"
+ },
+ "མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།": {
+  "date": "2026-10-15",
+  "edition_id": "5kb8ayOJh8WAN07cS8edV",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T09:27:13"
+   },
+   {
+    "chars": 857565,
+    "segments": 1317,
+    "step": "edition",
+    "ts": "2026-10-15T09:27:19"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T09:27:19"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "e5chVABeojsRtjXZFPmZS",
+  "toc_id": "Y1AU1K8UF62W7FHqktnRk",
+  "updated": "2026-10-15T09:27:19"
+ }
+}

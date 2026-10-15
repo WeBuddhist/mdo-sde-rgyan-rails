@@ -1,0 +1,21 @@
+# source: 0-INBOX\mdo-sde-rgyan-root\prepared.md
+# total_lines: 6561
+# chunk_size: 500
+# overlap: 50
+# total_chunks: 15
+# columns: chunk_id	start_line	end_line  (1-based, inclusive; read with: sed -n 'START,ENDp' <source>)
+000	1	500
+001	451	950
+002	901	1400
+003	1351	1850
+004	1801	2300
+005	2251	2750
+006	2701	3200
+007	3151	3650
+008	3601	4100
+009	4051	4550
+010	4501	5000
+011	4951	5450
+012	5401	5900
+013	5851	6350
+014	6301	6561
