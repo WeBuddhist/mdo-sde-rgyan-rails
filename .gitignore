@@ -13,3 +13,10 @@
 
 # Claude Code worktrees (local only)
 .claude/worktrees/
+
+# Secrets and local Python environment (never commit)
+.env
+venv/
+
+# Python bytecode caches
+__pycache__/

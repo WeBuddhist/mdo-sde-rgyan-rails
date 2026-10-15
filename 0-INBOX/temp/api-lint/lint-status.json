@@ -1,0 +1,23 @@
+{
+ "མདོ་སྡེ་རྒྱན།": {
+  "status": "done",
+  "chars": 118377,
+  "size": "medium",
+  "size_from": "source chars",
+  "lint": "OK",
+  "lint_errors": 0,
+  "lint_warnings": 6,
+  "first_error": "",
+  "durchen_warnings": 0,
+  "parse": "OK",
+  "segments": 837,
+  "durchens": 0,
+  "yigchungs": 0,
+  "toc_nodes": 26,
+  "parse_warnings": 1,
+  "output": "4-SYSTEM/scripts/parser-root-text/output/མདོ་སྡེ་རྒྱན།/",
+  "source_changed": false,
+  "date": "2026-10-15",
+  "log": "0-INBOX/temp/api-lint/logs/མདོ་སྡེ་རྒྱན།.log"
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "source": "1-SOURCES/Text/མདོ་སྡེ་རྒྱན།.md",
+  "validated_at": "2026-10-15T03:36:32.261885+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "translation_of: not set (optional)",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://webuddhist.com/'",
+    "toc: 26 headers found"
+  ],
+  "warnings": [
+    "author 'འཕགས་པ་བྱམས་པ།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'ཤཱཀྱ་སིཾ་ཧ།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'དཔལ་བརྩེགས།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'པ་ར་ཧི་ཏ།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'སད་ཛ་ན།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'བློ་ལྡན་ཤེས་རབ།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "bo": "ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་ཞེས་བྱ་བའི་ཚིག་ལེའུར་བྱས་པ།"
+    },
+    "alt_titles": [
+      {
+        "bo": "མདོ་སྡེ་རྒྱན།"
+      },
+      {
+        "sa": "མ་ཧཱ་ཡཱ་ན་སཱུ་ཏྲ་ཨ་ལཾ་ཀ་ར་ནཱ་མ་ཀཱ་རི་ཀཱ།"
+      }
+    ],
+    "language": "bo",
+    "commentary_of": null,
+    "translation_of": null,
+    "category_id": "NDXKdNtZe9Kxl6Y4yBMAr",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}

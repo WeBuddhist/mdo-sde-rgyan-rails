@@ -7,6 +7,10 @@ A script that belongs to exactly one skill lives in that skill's own `scripts/` 
 | Script | What it does |
 | ------ | ------------ |
 | `install-skills.py` | Installs skills from the shared skill library into `4-SYSTEM/Skills/`, resolving the library's logical location names to this vault's paths and writing the `.claude/commands/` stubs. See [`../How-to guides/Sync with rails-template.md`](../How-to%20guides/Sync%20with%20rails-template.md). |
+| `linter-root-text/` | Lints a root text, edition or translation against the OpenPecha API schemas and writes the `text_input` payload to its own `output/`. **Patches `language` / `lang_tag` in the source file's frontmatter.** Ported from Nalanda-texts-rails, originally vendored from 21-taras-rails (see its `UPSTREAM.md`). |
+| `linter-commentary/` | Same for `file_type: commentary`; also fills `commentary_of` / `category_id` from the linked `root_text`. Ported from Nalanda-texts-rails (see its `UPSTREAM.md`). |
+| `parser-root-text/` | Turns a source file and its `.lint.json` into API payloads: text, edition segments, yigchungs, durchens (footnotes → variant-reading notes), TOC and alignment. Run the linter first. Ported from Nalanda-texts-rails (see its `UPSTREAM.md`). |
+| `parser-commentary/` | Same for commentaries: segments default to `paragraph`, and alignment comes from the transclusions. Ported from Nalanda-texts-rails (see its `UPSTREAM.md`). |
 
 ## Conventions
 

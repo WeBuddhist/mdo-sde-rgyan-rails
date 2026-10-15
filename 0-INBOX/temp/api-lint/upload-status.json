@@ -1,0 +1,33 @@
+{
+ "མདོ་སྡེ་རྒྱན།": {
+  "date": "2026-10-15",
+  "durchen_count": 0,
+  "durchen_ids": [],
+  "edition_id": "ebwdpBuJ5cILoqwMijPOn",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T09:07:45"
+   },
+   {
+    "chars": 106540,
+    "segments": 837,
+    "step": "edition",
+    "ts": "2026-10-15T09:07:46"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T09:07:47"
+   },
+   {
+    "step": "durchens",
+    "ts": "2026-10-15T09:07:47"
+   }
+  ],
+  "payload_hash": "e50993fcc36dbe1386d51032db0f779e7893b020575a4aa1cc4db4e7f3339673",
+  "status": "uploaded",
+  "text_id": "yNYUB52TDy6TpQqt5gjjV",
+  "toc_id": "UkIfj0LXOseKuFMM3dGJR",
+  "updated": "2026-10-15T09:07:47"
+ }
+}
