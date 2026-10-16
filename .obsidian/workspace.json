@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
+                "file": "1-SOURCES/Text/མདོ་སྡེ་རྒྱན།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།"
+              "title": "མདོ་སྡེ་རྒྱན།"
             }
           }
         ]
@@ -199,6 +199,12 @@
   },
   "active": "78426d15b3a1d0b6",
   "lastOpenFiles": [
+    "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།.md",
+    "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
+    "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།.md",
+    "1-SOURCES/Commentaries/ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
     "0-INBOX/temp/api-lint/upload-status.json",
     "0-INBOX/temp/api-lint/UPSTREAM.md",
     "0-INBOX/temp/api-lint/run_upload_commentary.py",
@@ -210,7 +216,6 @@
     "4-SYSTEM/scripts/parser-root-text/output/མདོ་སྡེ་རྒྱན།/མདོ་སྡེ་རྒྱན།.toc.json",
     "4-SYSTEM/scripts/parser-root-text/output/མདོ་སྡེ་རྒྱན།/མདོ་སྡེ་རྒྱན།.text.json",
     "4-SYSTEM/scripts/parser-root-text/output/མདོ་སྡེ་རྒྱན།/མདོ་སྡེ་རྒྱན།.edition.json",
-    "4-SYSTEM/scripts/parser-root-text/output/མདོ་སྡེ་རྒྱན།/མདོ་སྡེ་རྒྱན།.durchens.json",
     "4-SYSTEM/scripts/parser-root-text/UPSTREAM.md",
     "4-SYSTEM/scripts/parser-root-text/README.md",
     "4-SYSTEM/scripts/parser-commentary/README.md",
@@ -229,11 +234,6 @@
     "4-SYSTEM/Skills/root-text-toc-extract/SKILL.md",
     "4-SYSTEM/Skills/root-text-segment/SKILL.md",
     "4-SYSTEM/Skills/root-text-pipeline/SKILL.md",
-    "4-SYSTEM/Skills/root-text-group/prompts/stanza-grouping.md",
-    "4-SYSTEM/Skills/root-text-group/prompts/prose-grouping.md",
-    "4-SYSTEM/Skills/root-text-group/SKILL.md",
-    "4-SYSTEM/Skills/root-text-classify/SKILL.md",
-    "4-SYSTEM/Skills/root-text-block-ids/SKILL.md",
-    "4-SYSTEM/Skills/commentary-toc-ingest/SKILL.md"
+    "4-SYSTEM/Skills/root-text-group/prompts/stanza-grouping.md"
   ]
 }
