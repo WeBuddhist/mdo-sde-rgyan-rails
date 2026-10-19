@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
+                "file": "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།"
+              "title": "མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།"
             }
           }
         ]
@@ -199,8 +199,8 @@
   },
   "active": "d02205c04bd046df",
   "lastOpenFiles": [
-    "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།.md",
     "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
+    "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་བཤད་པ།.md",
     "conflict-files-obsidian-git.md",
     "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།.md",
