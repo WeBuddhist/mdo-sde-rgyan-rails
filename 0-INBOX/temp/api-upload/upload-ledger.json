@@ -1,0 +1,137 @@
+{
+ "ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།": {
+  "file": "1-SOURCES/Commentaries/ཐེག་པ་ཆེན་པོ་མདོ་སྡེའི་རྒྱན་གྱི་འགྲེལ་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
+  "receipts": [
+   {
+    "step": "edition",
+    "edition_id": "WI1JF6DQ99xaZzLj3aHbX",
+    "at": "2026-10-22T16:40:41",
+    "segments": 1641
+   },
+   {
+    "step": "toc",
+    "toc_id": "P1krxD2j6MJfLl6DMMpQ3",
+    "at": "2026-10-22T16:40:42"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn",
+    "at": "2026-10-22T16:40:48",
+    "pairs": 1526
+   }
+  ],
+  "text_id": "dyVrL4uQ2ij91KqT37Z40",
+  "edition_id": "WI1JF6DQ99xaZzLj3aHbX",
+  "toc_id": "P1krxD2j6MJfLl6DMMpQ3",
+  "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn"
+ },
+ "མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།": {
+  "file": "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་མཆན་འགྲེལ།.md",
+  "receipts": [
+   {
+    "step": "edition",
+    "edition_id": "wgGD90bUZ0SSju7LqDJyV",
+    "at": "2026-10-22T16:41:21",
+    "segments": 415
+   },
+   {
+    "step": "toc",
+    "toc_id": "b5OyhYdboFYgkBNpuhQ1L",
+    "at": "2026-10-22T16:41:22"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn",
+    "at": "2026-10-22T16:41:24",
+    "pairs": 841
+   }
+  ],
+  "text_id": "hp3bbJnzzFTDWjU9sShVz",
+  "edition_id": "wgGD90bUZ0SSju7LqDJyV",
+  "toc_id": "b5OyhYdboFYgkBNpuhQ1L",
+  "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn"
+ },
+ "མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།": {
+  "file": "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
+  "receipts": [
+   {
+    "step": "edition",
+    "edition_id": "5XOEDnIi5EqzHyH4RNrh7",
+    "at": "2026-10-22T16:41:34",
+    "segments": 1484
+   },
+   {
+    "step": "toc",
+    "toc_id": "UyWOozV3IbFMirCU74mcp",
+    "at": "2026-10-22T16:41:36"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn",
+    "at": "2026-10-22T16:41:41",
+    "pairs": 1535
+   }
+  ],
+  "text_id": "e5chVABeojsRtjXZFPmZS",
+  "edition_id": "5XOEDnIi5EqzHyH4RNrh7",
+  "toc_id": "UyWOozV3IbFMirCU74mcp",
+  "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn"
+ },
+ "མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།": {
+  "file": "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྨད་ཆ།.md",
+  "receipts": [
+   {
+    "step": "edition",
+    "edition_id": "oqUxbCUP8uc6IvaLdNRz8",
+    "at": "2026-10-22T16:41:55",
+    "segments": 1733
+   },
+   {
+    "step": "toc",
+    "toc_id": "4HnqBarPOLf1B3GkkdTCz",
+    "at": "2026-10-22T16:41:56"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn",
+    "at": "2026-10-22T16:42:02",
+    "pairs": 1830
+   }
+  ],
+  "text_id": "DO8FpmYxtxZ9ycv3qXIec",
+  "edition_id": "oqUxbCUP8uc6IvaLdNRz8",
+  "toc_id": "4HnqBarPOLf1B3GkkdTCz",
+  "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn"
+ },
+ "མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།": {
+  "file": "1-SOURCES/Commentaries/མདོ་སྡེ་རྒྱན་གྱི་འགྲེལ་བཤད། སྟོད་ཆ།.md",
+  "receipts": [
+   {
+    "step": "text",
+    "text_id": "72dZro09r9XjJb28nhrPP",
+    "at": "2026-10-22T16:47:50"
+   },
+   {
+    "step": "edition",
+    "edition_id": "5jM1RidL9Adg7Kb2IhALQ",
+    "at": "2026-10-22T16:47:51",
+    "segments": 2045
+   },
+   {
+    "step": "toc",
+    "toc_id": "IMqXRKzdYvFobq97eZ1YV",
+    "at": "2026-10-22T16:47:52"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn",
+    "at": "2026-10-22T16:48:00",
+    "pairs": 2047
+   }
+  ],
+  "text_id": "72dZro09r9XjJb28nhrPP",
+  "edition_id": "5jM1RidL9Adg7Kb2IhALQ",
+  "toc_id": "IMqXRKzdYvFobq97eZ1YV",
+  "aligned_to_edition_id": "ebwdpBuJ5cILoqwMijPOn"
+ }
+}
