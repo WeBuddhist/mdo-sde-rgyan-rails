@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "1-SOURCES/Commentaries/མདོ་སྡེའི་རྒྱན་གྱི་དགོངས་དོན་རྣམ་པར་བཤད་པ་ཐེག་མཆོག་བདུད་རྩིའི་དགའ་སྟོན།.md",
-  "validated_at": "2026-10-15T03:54:32.026259+00:00",
+  "validated_at": "2026-10-22T10:56:09.043256+00:00",
   "notes": [
     "bdrc_work_id: not set (optional)",
     "wiki: not set (optional)",
@@ -10,7 +10,7 @@
     "root_text: '1-SOURCES/Text/མདོ་སྡེ་རྒྱན།.md'",
     "tag_ids: not set (optional)",
     "source: source = 'https://webuddhist.com/'",
-    "toc: 1 headers found"
+    "toc: 308 headers found"
   ],
   "warnings": [
     "author 'མི་ཕམ་འཇམ་དབྱངས་རྒྱ་མཚོ།': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
